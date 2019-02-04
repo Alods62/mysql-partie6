@@ -1,0 +1,8 @@
+
+ex1. SELECT * FROM `webdevelopment`.`frameworks` WHERE `version` LIKE '2.%';
+
+ex2. SELECT * FROM `webdevelopment`.`frameworks` WHERE `id` = '1' OR `id` = '3';
+
+ex3. SELECT *
+     FROM `webdevelopment`.`ide`
+     WHERE `date` BETWEEN '2010-01-01' AND '2011-12-31';
